@@ -1,6 +1,6 @@
 package Template::Plugin::Pagination;
 
-$VERSION = '0.10';
+$VERSION = '0.90';
 
 use strict;
 use Data::Paginated;
@@ -33,7 +33,7 @@ is Data::Page + Data::Pageset + some extras).
 
 =head1 METHODS
 
-=head2 Pagination
+=head2 new
 
 This is the constructor. It has one mandatory arguments: the list of items
 we're working with. You can also pass the page number you're currently
@@ -81,13 +81,18 @@ See their manual pages for details.
 
 Tony Bowden, <cpan@tmtm.com>
 
+=head1 BUGS and QUERIES
+
+Please direct all correspondence regarding this module to:
+  bug-Template-Plugin-Pagination@rt.cpan.org
+
 =head1 SEE ALSO
 
-Template::Plugin::Page, Data::Page, Data::Pageset, Data::Paginated
+L<Template::Plugin::Page>, L<Data::Page>, L<Data::Pageset>, L<Data::Paginated>
 
 =head1 COPYRIGHT
 
-Copyright (C) 2004 Tony Bowden. All rights reserved.
+Copyright (C) 2004-2006 Tony Bowden. All rights reserved.
 
 This module is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself
